@@ -1,0 +1,1037 @@
+body{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+}
+
+/*Celular*/
+
+/*MENU*/
+header{
+    font-size: 16px;
+}
+
+.menu__logo{
+    width: 15px;
+    height: 15px;
+}
+
+.menu__parrafo{
+    font-weight: bold;
+}
+
+.menu__contenedor{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #F5F5F5;
+    align-items: center; 
+    padding: 0 25px;
+}
+
+.menu__logoContenedor{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.menu__item:nth-child(1),
+.menu__item:nth-child(2),
+.menu__item:nth-child(3),
+.menu__item:nth-child(4){
+    display: none;
+}
+
+.menu__lista{
+    display: flex;
+    gap: 25px;
+}
+
+
+/*Section Sobre Mi*/
+
+.about__section{
+    width: auto;
+    height: auto;
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+.img__about{
+    width: 35%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+
+}
+
+.about__img__container{
+    display: flex;
+    padding: 0px 0px 25px 0px;
+}
+
+.about__txt__container{
+    padding: 0 0px;
+}
+
+.titulo__general{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.label__general{
+    padding: 25px 0 10px 0;
+    font-size: 20px;
+}
+
+.about__ul{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    padding: 10px 0;
+    
+}
+
+.about__item{
+    display: flex;
+    align-items: center;
+    padding-right: 19px;
+    
+}
+
+.about__arrow{
+    width: 11px; 
+    margin-left: 5px; 
+}
+    
+.about_a{
+    display: flex; 
+    align-items: center; 
+}
+
+/* Sobre mi */
+
+.sobre__mi__section{
+    background: #EAF2FD;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.sobre__mi__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__mi__titulo{
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+.sobre__mi__contenido{
+    font-size: 16px;
+}
+
+.sobre__mi__container__img{
+    display: flex;
+    justify-content: start;
+    padding: 10px 0;
+}
+
+.sobre__mi__firma{
+    width: 150px;
+}
+
+/* pasatiempos */
+
+.pasatiempos__section{
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background: #e7e9eb;
+    padding: 10px 20px;
+}
+
+.pasatiempos__primer__container,
+.pasatiempos__segundo__container{
+    padding: 20px 0px;
+}
+
+.pasatiempos__titulos{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 0 40px 0;
+    color: #464646;
+    
+}
+
+.pasatiempos__lista__skills,
+.pasatiempos__lista__hobbies{
+    
+    gap: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item__skills,
+.item__hobbies{
+    width: 140px;
+    height: 130px;
+    background: #ffffff;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0 15px 18px;
+    font-size: 19px;
+    font-weight: 700;
+    justify-content: end;
+    
+}
+
+.icons__pasatiempos,
+.icons__hobbies{
+    width: 45px;
+    padding-bottom: 13px;
+}
+
+/* Formacion */
+
+.formacion__section{
+    width: auto;
+    height: auto;
+    background: #EAF2FD;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formacion__titulo__general{
+    padding: 30px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    color: #464646;
+}
+
+.formacion__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-bottom: 30px;
+    width: 300px;
+}
+
+.formacion__img__div{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+    width: 300px;
+    margin: 15px 0;
+}
+
+.formacion__img{
+    width: 150px;
+}
+
+.formacion__contenido{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.formacion__titulo{
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+
+.formacion__parrafo{
+    font-size: 14px;
+}
+
+/* Experiencia Profesional */
+
+.expProfesional__section{
+    width: auto;
+    height: auto;
+    background: #f5f8fc;
+    padding: 32px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.expProfesional__titulo__general{
+    padding-bottom: 16px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    color: #464646;
+}
+
+.expProfesional__contenedor{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    width: 300px;
+}
+
+.expProfesional__img__div{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 300px;
+    margin: 16px 0;
+}
+
+.expProfesional__contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.expProfesional__titulo{
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+
+.expProfesional__parrafo{
+    font-size: 14px;
+}
+
+.btn__repositorio{
+    background-color: rgb(27, 77, 255);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn__repositorio:hover{
+    background-color: rgb(0, 12, 73);
+    color: #ffffff;
+}
+
+.btn__demo{
+    background-color: white;
+    color: #2A7AE4;
+    border: 1px solid rgb(27, 77, 255); 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn__demo:hover{
+    background-color: rgb(27, 77, 255);
+    border: none;
+    color: white;
+}
+
+.btn__expProfesional{
+    padding: 16px 0px 0 0;
+}
+
+/* Formulario  */
+
+.formulario__section{
+    width: auto;
+    height: auto;
+    background: #ffffff;
+    padding: 32px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario__label{
+    font-size: 16px;
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.card {
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	background-color: #FFF;
+	border-radius: 1px;
+	box-shadow: 0 10px 20px 0 rgba(#999, .25);
+	padding: .75rem;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	-o-border-radius: 1px;
+}
+
+.card-form {
+    padding: 1rem 1rem 0;
+    width: auto;
+    background: #efefef;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.input {
+	display: flex;
+	flex-direction: column-reverse;
+	position: relative;
+	padding-top: 1.5rem;
+	&+.input {
+		margin-top: 1.5rem;
+	}
+}
+
+.input-label {
+	color: rgb(52, 52, 52);
+	position: absolute;
+	top: 1.5rem;
+	transition: .25s ease;
+}
+
+.input-field {
+	border: 0;
+	z-index: 1;
+	background-color: transparent;
+	border-bottom: 1px solid rgb(160, 181, 255); 
+	font: inherit;
+    line-height: 1.5;
+	font-size: 16px;
+	padding: .25rem 0;
+	&:focus, &:valid {
+		outline: 0;
+		border-bottom-color: rgb(27, 77, 255);
+		&+.input-label {
+			color: rgb(27, 77, 255);
+			transform: translateY(-1.5rem);
+		}
+	}
+}
+
+.action {
+	margin-top: 2rem;
+}
+
+.action-button {
+	font-size: 14px;
+	padding: 1em;
+	width: 100%;
+	font-weight: 500;
+	background-color: rgb(27, 77, 255);
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+	&:focus {
+		outline: 0;
+	}
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.formulario__img{
+    display: none;
+}
+
+/* footer */
+
+.footer__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0 32px 0;
+}
+
+.p__footer{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* TABLET */ 
+@media (min-width:819px){
+
+    header{
+        font-size: 18px;
+    }
+
+    .menu__logo{
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu__parrafo{
+        font-weight: bold;
+    }
+
+    .menu__contenedor{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        background-color: #F5F5F5;
+        align-items: center; 
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .menu__logoContenedor{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .menu__lista{
+        display: flex;
+        gap: 25px;
+    }
+
+    .menu__item:nth-child(5){
+        font-weight: bold;
+    }
+
+    .menu__item:nth-child(1),
+    .menu__item:nth-child(2),
+    .menu__item:nth-child(3),
+    .menu__item:nth-child(4){
+    display: block;
+    }
+
+    .formulario__img{
+        display: none;
+    }
+
+    /*About*/
+
+    .about__section{
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 0px 60px 0 60px;
+        
+    }
+
+    .about__img__container{
+        display: flex;
+        justify-content: center;
+        padding-left: 30px;
+        
+    }
+
+    .img__about{
+        width: 230px;
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+    
+    }
+    
+    .about__img__container{
+        display: flex;
+        
+    }
+
+    .about__arrow{
+        width: 10px;
+        margin-left: 5px; 
+    }
+
+    .titulo__general{
+        font-size: 30px;
+        padding: 30px 0 0 0;
+    }
+
+    .label__general{
+        font-size: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    .about__ul{
+        display: flex;
+        font-size: 15px;
+        gap: 70px;
+        align-items: center;
+    }
+    
+    .about_a{
+        display: flex; 
+        align-items: center; 
+    }
+
+    /* Sobre mi */
+
+    .sobre__mi__section{
+        background: #EAF2FD;
+        width: auto;
+        height: auto;
+        padding: 30px 60px 0 60px;
+    }
+
+
+     /* pasatiempos */
+
+     .pasatiempos__section{
+        height: auto;
+        width: auto;
+        padding: 30px 60px 50px 60px;
+        background: #e7e9eb;
+    }
+
+        
+    .pasatiempos__primer__container,
+    .pasatiempos__segundo__container{
+        padding: 10px 0;
+    }
+
+    .pasatiempos__titulos{
+        font-size: 19px;
+        text-align: center;
+        font-weight: 700;
+        padding: 10px 0 40px 0;
+        color: #464646;
+        
+    }
+
+    .pasatiempos__lista__skills,
+    .pasatiempos__lista__hobbies{
+        gap: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item__skills,
+    .item__hobbies{
+        width: 120px;
+        height: 120px;
+        background: #ffffff;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0 15px 18px;
+        font-size: 19px;
+        font-weight: 700;
+        justify-content: end;
+        
+    }
+
+    .icons__pasatiempos,
+    .icons__hobbies{
+        width: 35px;
+        padding-bottom: 13px;
+    }
+
+    /* Formacion */
+
+    .formacion__section{
+        height: auto;
+        width: auto;
+        padding: 30px 60px 50px 60px;
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+    }
+
+    .formacion__contenedor__general{
+        display: flex;
+        gap: 50px;
+    }
+
+    .formacion__contenedor{
+        display: flex;
+        
+    }
+
+    .formacion__img{
+        width: 150px;
+    }
+
+    /* Experiencia Profesional */
+    
+    .expProfesional__contenedor__general{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .expProfesional__contenedor{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .expProfesional__img__div{ 
+        width: auto;
+    }
+
+    .expProfesional__img{
+        width: 700px;
+    }
+
+    /* Formulario  */
+
+
+    .formulario__section{
+        padding: 30px 60px 50px 60px;
+    }
+
+    .formulario__label{
+        font-size: 18px;
+        margin: 0 0 30px 0;
+        line-height: 1.5;
+    }
+
+    .card-form {
+        padding: 1rem 1rem 0;
+        width: auto;
+        background: #efefef;
+        
+    }
+
+    .input {
+        
+        padding: 12px;
+        
+    }
+   
+    .formulario__img{
+        display: none;
+    }
+
+    .action {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: start;
+    }
+
+    .action-button {
+        
+        width: 30%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+}
+
+
+
+/* ESCRITORIO */ 
+@media (min-width:1400px){
+
+    header{
+        
+        font-size: 18px;
+    }
+
+    .menu__logo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu__parrafo{
+        font-weight: bold;
+    }
+
+    .menu__contenedor{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        height: 120px;
+        background-color: #F5F5F5;
+        align-items: center; 
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    .menu__logoContenedor{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+
+    .menu__lista{
+        display: flex;
+        gap: 45px;
+    }
+
+    .menu__item:nth-child(5){
+        font-weight: bold;
+    }
+
+    .menu__item:nth-child(1),
+    .menu__item:nth-child(2),
+    .menu__item:nth-child(3),
+    .menu__item:nth-child(4){
+    display: block;
+    }
+
+    /* About */
+    .about__section{
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: start;
+        padding: 20px 200px;
+        
+    }
+
+    .about__img__container{
+        display: flex;
+        justify-content: center;
+        padding-left: 40px;
+    }
+
+    .img__about{
+        width: 350px;
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+    
+    }
+
+    .about__img__container{
+        display: flex;
+        
+    }
+
+    .about__txt__container{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .titulo__general{
+        font-size: 52px;
+        line-height: 1.5;
+    }
+
+    .label__general{
+        font-size: 22px;
+        padding-bottom: 30px;
+        line-height: 1.5;
+    }
+
+    .about__ul{
+        display: flex;
+        font-size: 20px;
+        gap: 70px;
+        
+    }
+       
+    .about__item{
+        padding-bottom: 50px;
+        
+    }
+
+    .about__arrow{
+        width: 15px; 
+        margin-left: 5px; 
+    }
+        
+    .about_a{
+        display: flex; 
+        align-items: center; 
+        
+    }
+
+   /* Sobre mi */
+
+   .sobre__mi__section{
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: start;
+        background: #EAF2FD;
+        padding: 60px 200px 60px 200px; 
+        
+    }
+
+    .sobre__mi__titulo{
+        font-weight: bold;
+        padding: 25px 0;
+        font-size: 32px;
+        
+    }
+    
+    .sobre__mi__contenido{
+        width: 1100px;
+        height: auto;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* pasatiempos */
+
+    .pasatiempos__section{
+        height: auto;
+        width: auto;
+        padding: 20px 200px 60px 200px;
+        background: #e7e9eb;
+    }
+
+        
+    .pasatiempos__primer__container,
+    .pasatiempos__segundo__container{
+        padding: 10px 0;
+    }
+
+    .pasatiempos__titulos{
+        font-size: 19px;
+        line-height: 1.5;
+        text-align: center;
+        font-weight: 700;
+        padding: 10px 0 40px 0;
+        color: #464646;
+        
+    }
+
+    .pasatiempos__lista__skills,
+    .pasatiempos__lista__hobbies{
+        gap: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item__skills,
+    .item__hobbies{
+        width: 120px;
+        height: 120px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        padding: 0px 0 15px 18px;
+        font-size: 19px;
+        line-height: 1.5;
+        font-weight: 700;
+        justify-content: end;    
+    }
+
+    .icons__pasatiempos,
+    .icons__hobbies{
+        width: 35px;
+        padding-bottom: 13px;
+    }
+
+    /* Formacion */
+
+    .formacion__section{
+        height: auto;
+        width: auto;
+        padding: 20px 200px;
+        display: flex; 
+        align-items: center;
+    }
+
+    .formacion__contenedor{
+        display: flex;
+        width: 300px;
+    }
+
+     /* Experiencia Profesional */
+    
+    .expProfesional__section{
+        padding: 32px 250px;
+    }
+
+    .expProfesional__contenedor__general{
+        width: 1250px;
+       
+    }
+
+    .expProfesional__contenedor{
+        width: auto;
+        margin-bottom: 10px;
+        flex-direction: row;
+        align-items: center;            
+    }
+
+    .expProfesional__contenido{
+        padding: 0 20px;
+    }
+    
+    .expProfesional__img{
+        width: 800px;
+    }
+
+    .expProfesional__contenedor:nth-child(2){
+        flex-direction: row-reverse;
+    }
+
+    .expProfesional__contenedor:nth-child(2){
+        justify-content: space-between;
+
+    }
+
+    .expProfesional__titulo{
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    /* Form */
+
+    .formulario__section{
+        padding: 32px 280px;
+        display: flex;
+    }
+
+    .form__container{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .formulario__img{
+        max-width: 650px;
+    }
+
+    .formulario__img{
+        display: block;
+    }
+    
+    .card-form{
+        flex-grow: 1;
+    }
+
+    .form__item{
+        margin: 15px;
+    }
+
+    
+}
